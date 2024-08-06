@@ -1,0 +1,64 @@
+.footer{
+    margin: 70px 0px 0px;
+    background-image: url("https://s3-alpha-sig.figma.com/img/ade4/e32b/d86098c5527bce3180eeb5a2c5ab97d7?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=msHAEqzz1ADATX6m4E7Yxfg9ci0u7pS3l1VEdoowiz2Mimln6f6Cq3NMCvYCg5YWV2zUcvaoZ4~cQ06-u-wabBfPQrnFMv1MOy1JOjQMoy6HK5XiCZg1rLbWwnS13AbpmVse2EPiaK24WyBY56OWksQw5PZzR0L2iklhAwbXobRKBf7e-Og6PQRylQRUleUMLgJFHiSTdY414pzfat~opCI3JsqwrEMdq258Zrc57Z6S6TqcvZeh6KeflvHElbOU3purtdUuqpIqpsVPdJcMSG8Rm8N3jtdXl0aHLk7zTnGneXo3biAx1kB4JFLNDOb-3lpwpW8jqD3kk4sTE-1v2A__");
+    padding-bottom: 120px;
+    object-fit: cover;
+    background-color: rgba(22, 64, 56, 1);
+    background-size: cover;
+    padding-top: 140px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    
+    &__title{
+        text-align: center;
+        color: white;
+        margin-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-bottom: 120px;
+
+        h1{
+            color: white;
+            font-size: 50px;
+            font-weight: 300;
+        }
+        p{
+            color: white;
+            margin-bottom: 30px;
+        }
+    }
+
+
+    &__links{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        p{
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        a{
+            color: white;
+        }
+    }
+
+    &__end{
+        display: flex;
+        gap: 30px;
+        margin-top: 100px;
+        p{
+            color: white;
+        }
+    }
+}

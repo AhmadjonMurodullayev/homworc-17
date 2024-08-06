@@ -1,0 +1,53 @@
+.forim{
+    &-box{
+        display: grid;
+        gap: 25px;
+    }
+    &-item{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    &-card1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &-h5{
+        color: #1f574d;
+    }
+    &-card2{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    &-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    &-text1{
+        padding: 20px 0px;
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid rgb(209, 209, 205);
+        justify-content: space-between;
+    }
+    &-dumaloq{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 2px solid beige;
+    }
+}
+@media(min-width:768px){
+    .forim{
+        &-item{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}

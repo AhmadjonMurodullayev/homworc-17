@@ -1,0 +1,63 @@
+.hero{
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://s3-alpha-sig.figma.com/img/73bd/b846/6e0660244f0a1647307e1143e8c5cb9b?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dpl7NWEzaga0ix6lvX~gKhoHGle-07pQTtlGRKeiHOA2CTvujGPALx7Db1D-KPMVZ-v0OLZ39Y8Ojj0wVthtFVTTG5Z3xJ00jeLaFTmSnfTMn8AOfITRWhyLfnBisqpX4mn6hYHss4AJmKIFoEpMEK~weUS4Ns-B7o02cOODfM1uvNyznpyIBdp7EsSA~ZgoTAvdYwwtxAqejgcKeWPd37OJ-wNK2QKz88PrdwmVfCnS2BErh92TJqtCtpVxQi-8vhWXonDF-D3m7fNv7GlaCfNgx4wRiCUkdJyJ0LKyflOWNx0ZsmBpUhlTPQyn~7s4F~385rRI8JPZxHd0LGtTfQ__");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &-item{
+        padding: 60px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    &-title{
+        color: white;
+        font-size: 38px;
+    }
+    &-text{
+        color: white;
+    }
+    &-btns{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &-btn1{
+        background-color: #E1FFA0;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 18px;
+    }
+    &-btn2{
+        background-color: inherit;
+        padding: 10px 20px;
+        border: none;
+        color: white;
+    }
+}
+@media(min-width:768px){
+    .hero{
+        &-title{
+            font-size: 52px;
+        }
+        &-btns{
+            flex-direction: row;
+        }
+    }
+}
+
+@media(min-width:992px){
+    .hero{
+        &-title{
+            font-size: 68px;
+        }
+    }
+}
+@media(min-width:1200px){
+    .hero{
+        &-title{
+            font-size: 72px;
+        }
+    }
+}

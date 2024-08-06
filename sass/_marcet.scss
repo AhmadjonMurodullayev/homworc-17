@@ -1,0 +1,91 @@
+.marcet{
+    background-color: #0C2520;
+    padding: 50px 0px;
+    &-box{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    &-item1{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        gap: 25px;
+    }
+    &-blog1{
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &-title{
+        color: white;
+    }
+    &-text{
+        font-size: 38px;
+        color: white;
+    }
+    &-blog2{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &-info{
+        color:  #E1FFA0;
+    }
+    &-info2{
+        color: white;
+    }
+    &-item2{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        gap: 25px;
+    }
+    &-card{
+        height: 100%;
+        padding: 25px 25px;
+         background-color: #164038;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    &-card-title{
+        color: white;
+    }
+    &-card-info{
+        color: #E1FFA0;
+    }
+    &-card-info2{
+        color: white;
+    }
+    &-card-info3{
+        color: white;
+    }
+    &-card-subtitle{
+        display: flex;
+        gap: 10px;
+    }
+    &-card-text{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
+@media(min-width:768px){
+    .marcet{
+        &-item1{
+            grid-template-columns: 1fr 1fr;
+        }
+        &-item2{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+@media(min-width:992px){
+    .marcet{
+        &-item2{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}

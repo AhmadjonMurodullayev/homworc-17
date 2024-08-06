@@ -1,0 +1,46 @@
+.automating{
+    &-box{
+        margin: 90px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    &-item1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    &-item-img{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    &-item2{
+        margin: 110px 0px 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 30px
+    }
+    &-item2-card{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media(min-width:768px){
+    .automating{
+        &-item2{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+@media(min-width:992px){
+    .automating{
+        &-item2{
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+}
